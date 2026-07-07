@@ -1,0 +1,3 @@
+- Besitzer (besitzer): vorname[string/text], nachname[string/text], email[string/email], telefon[string/tel], strasse[string/text], hausnummer[string/text], postleitzahl[string/text], stadt[string/text]
+- Schallplatten (schallplatten): titel[string/text], kuenstler[string/text], genre[lookup/select], erscheinungsjahr[number], label[string/text], zustand[lookup/select], besitzer_ref[applookup/select], bemerkungen[string/textarea]
+  → besitzer_ref links to app_id 6a4d20889264e3560fc79890
